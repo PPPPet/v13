@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <title>Upload file functionslity</title>
+<h3>Upload file functionality</h3>
+<br/>
+<br/>
+<br/>
+<form method="post" enctype="multipart/form-data", action="
+    https://g8i8xl40k3.execute-api.eu-west-2.amazonaws.com/v1/upload">
+    </form>
+    <img src="./img/2021_.png"/>
+    
+    <canvas id="canvas" height="100" width="100"></canvas>
+    <script>
+        var canvas = document.getElementById("canvas"), context = canvas.getContext("2d");
+        var internal_image = new Image();
+        internal_image.src = "./img/2021_.png";
+        internal_image.width = 18;
+        internal_image.height = 19;
+        context.drawImage(internal_image, 10, 10);
+    </script>
+</body>
